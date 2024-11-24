@@ -1,0 +1,50 @@
+    /* General Styles */
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(145deg, #232526, #414345);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+    
+    /* Clock Container */
+    .digital-clock {
+        text-align: center;
+        padding: 20px 40px;
+        border: 4px solid #b7bdbe;
+        border-radius: 15px;
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), inset 0 0 10px #61dafb;
+    }
+    
+    /* Time Display */
+    .time {
+        font-size: 3rem;
+        /* font-weight: bold; */
+        color: #61dafb;
+        text-shadow: 0 0 10px #61dafb, 0 0 10px #61dafb, 0 0 10 px #61dafb;
+    }
+    
+    /* Colon Styling */
+    .colon {
+        color: #ff6ec7;
+        text-shadow: 0 0 5px #6e6169, 0 0 20px #887e84;
+    }
+
+    /* Date Display */
+    .date {
+        margin-top: 10px;
+        font-size: 1.3rem;
+        color: #fff;
+        text-shadow: 0 0 5px rgba(43, 235, 187, 0.6);
+    }
+    
+  
+   .digital-clock:hover {
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.8), inset 0 0 10px #ff6ec7;
+        border-color: #ff6ec7;
+    }   
+    
